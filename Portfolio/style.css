@@ -1,0 +1,109 @@
+
+a {
+  color: #666 !important;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: orangered !important;
+}
+
+
+header {
+  padding: 15px 0;
+}
+
+
+.row {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.col-xl-8 {
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.col-xl-4 {
+  padding: 10px;
+}
+
+
+.profile-img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+}
+
+
+.accordion-body img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .col-xl-8, .col-xl-4 {
+    padding: 0;
+    text-align: center;
+  }
+
+  .col-xl-8 {
+    padding-top: 2%;
+  }
+}
+#skills {
+  
+  padding: 35px 0;
+}
+
+.skill-item {
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.03);
+}
+
+.skill-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin: 10px auto;
+  /* border-radius: 70%; */
+}
+
+.card {
+  border: solid;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.carousel-fade .carousel-item {
+  transition: opacity 0.8s ease-in-out;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); 
+}
+
+footer {
+  /* background-color: #666; */
+  /* border: solid black; */
+  /* color: white; */
+  padding: 20px;
+}
+
+
+
+
